@@ -10,10 +10,12 @@ Summary(pl):	HTML::SimpleLinkExtor - wyodrêbnianie odno¶ników z HTML-a
 Name:		perl-HTML-SimpleLinkExtor
 Version:	1.06
 Release:	1
-License:	?
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b86290d5f29049d198c02ad76f80ee5d
+URL:		http://search.cpan.org/dist/HTML-SimpleLinkExtor/
 BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
