@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	SimpleLinkExtor
-Summary:	HTML::SimpleLinkExtor - Extract links from HTML
-#Summary(pl):	
+Summary:	HTML::SimpleLinkExtor - extract links from HTML
+Summary(pl):	HTML::SimpleLinkExtor - wyodrêbnianie odno¶ników z HTML-a
 Name:		perl-HTML-SimpleLinkExtor
 Version:	0.72
 Release:	1
@@ -25,11 +25,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a simple HTML link extractor designed for the person who does not
-want to deal with the intricacies of C<HTML::Parser> or the de-referencing
-needed to get links out of C<HTML::LinkExtor>.
+want to deal with the intricacies of HTML::Parser or the de-referencing
+needed to get links out of HTML::LinkExtor.
 
-# %description -l pl
-# TODO
+%description -l pl
+To jest prosty modu³ do wyodrêbniania odno¶ników z HTML-a stworzony dla
+osób, które nie chc± siê wdawaæ w skomplikowanie modu³u HTML::Parser ani
+dereferencje potrzebne do uzyskania odno¶ników z modu³u HTML::LinkExtor.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -53,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/%{pdir}/*.pm
+%{perl_vendorlib}/HTML/*.pm
 %{_mandir}/man3/*
