@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	SimpleLinkExtor
+%define		pdir	HTML
+%define		pnam	SimpleLinkExtor
 Summary:	HTML::SimpleLinkExtor - extract links from HTML
 Summary(pl):	HTML::SimpleLinkExtor - wyodrêbnianie odno¶ników z HTML-a
 Name:		perl-HTML-SimpleLinkExtor
