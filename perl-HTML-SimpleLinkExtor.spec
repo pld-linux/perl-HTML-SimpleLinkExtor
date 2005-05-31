@@ -8,13 +8,13 @@
 Summary:	HTML::SimpleLinkExtor - extract links from HTML
 Summary(pl):	HTML::SimpleLinkExtor - wyodrêbnianie odno¶ników z HTML-a
 Name:		perl-HTML-SimpleLinkExtor
-Version:	1.08
+Version:	1.09
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d0c268595be8b6e47fd35c263a659f03
+# Source0-md5:	f5a9d6c9e3424fccce07af2e26e8b7f7
 URL:		http://search.cpan.org/dist/HTML-SimpleLinkExtor/
 BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
