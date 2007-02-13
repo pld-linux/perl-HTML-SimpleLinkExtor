@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	SimpleLinkExtor
 Summary:	HTML::SimpleLinkExtor - extract links from HTML
-Summary(pl.UTF-8):   HTML::SimpleLinkExtor - wyodrębnianie odnośników z HTML-a
+Summary(pl.UTF-8):	HTML::SimpleLinkExtor - wyodrębnianie odnośników z HTML-a
 Name:		perl-HTML-SimpleLinkExtor
 Version:	1.13
 Release:	1
